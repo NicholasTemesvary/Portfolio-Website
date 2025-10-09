@@ -5,6 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ATC Flight Path Simulator | Nicholas Temesvary</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .github-link {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #24292e;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
+
+    .github-link:hover {
+      background-color: #0366d6;
+    }
+
+    .try-section {
+      text-align: center;
+      padding: 30px 20px;
+      background: #f7f7f7;
+      border-top: 1px solid #ddd;
+      margin-top: 40px;
+    }
+
+    .try-section h2 {
+      margin-bottom: 10px;
+    }
+
+    .try-section p {
+      font-size: 1.05em;
+      color: #333;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -38,12 +72,26 @@
     </p>
   </section>
 
+  <!-- Image Gallery Section -->
   <section>
     <h2>ATC Simulation Snapshot</h2>
     <div class="image-gallery">
       <img src="visuals/atc_action.png" alt="ATC Simulation Snapshot" 
            style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
     </div>
+  </section>
+
+  <!-- Try It Yourself Section -->
+  <section class="try-section">
+    <h2>VIEW MY CODE!</h2>
+    <p>
+      Explore the Air Traffic Control Simulator, view the source code, or run the project locally.
+      The full implementation and instructions are available on GitHub.
+    </p>
+    <a href="https://github.com/NicholasTemesvary/Air-Traffic-Controller" 
+       class="github-link" target="_blank" rel="noopener noreferrer">
+      🔗 View on GitHub
+    </a>
   </section>
 
   <footer>
