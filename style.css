@@ -47,3 +47,20 @@ footer {
   margin-top: 2rem;
 }
 
+.status-button {
+  display: inline-block;
+  padding: 3px 10px;
+  margin-left: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid #aaa; /* grey outline */
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-transform: uppercase;
+}
+
+/* Stage Colors */
+.status-button.green { color: #28a745; border-color: #28a745; }
+.status-button.orange { color: #ff8c00; border-color: #ff8c00; }
+.status-button.red { color: #dc3545; border-color: #dc3545; }
+.status-button.blue { color: #007bff; border-color: #007bff; }
